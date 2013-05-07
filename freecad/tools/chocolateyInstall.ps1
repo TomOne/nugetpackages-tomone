@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'freecad' 'msi' '/quiet' 'http://sourceforge.net/projects/free-cad/files/FreeCAD%20Windows/FreeCAD%200.13/FreeCAD_0.13.1828_x86_setup.msi/download'

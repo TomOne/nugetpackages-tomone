@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'tightvnc' 'msi' '/quiet /norestart' 'http://www.tightvnc.com/download/2.7.1/tightvnc-2.7.1-setup-32bit.msi' 'http://www.tightvnc.com/download/2.7.1/tightvnc-2.7.1-setup-64bit.msi'

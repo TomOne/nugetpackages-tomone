@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'mixxx' 'exe' '/S' 'http://downloads.mixxx.org/mixxx-1.10.1/mixxx-1.10.1-win32.exe' 'http://downloads.mixxx.org/mixxx-1.10.1/mixxx-1.10.1-win64.exe'

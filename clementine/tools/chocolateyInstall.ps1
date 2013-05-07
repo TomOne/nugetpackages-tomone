@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'clementine' 'exe' '/S' 'https://clementine-player.googlecode.com/files/ClementineSetup-1.1.1.exe'

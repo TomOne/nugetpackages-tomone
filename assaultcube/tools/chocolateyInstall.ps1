@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'assaultcube' 'exe' '/S' 'http://sourceforge.net/projects/actiongame/files/AssaultCube%20Version%201.1.0.4/AssaultCube_v1.1.0.4.exe/download'
