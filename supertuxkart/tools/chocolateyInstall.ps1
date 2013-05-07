@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'supertuxkart' 'exe' '/S' 'http://sourceforge.net/projects/supertuxkart/files/SuperTuxKart/0.8/supertuxkart-0.8-win.exe/download'
