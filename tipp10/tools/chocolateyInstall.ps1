@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'tipp10' 'exe' '/verysilent' 'https://www.tipp10.com/en/download/getfile/0/1366923281/'

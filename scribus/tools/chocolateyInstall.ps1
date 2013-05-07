@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'scribus' 'exe' '/S' 'http://sourceforge.net/projects/scribus/files/scribus/1.4.2/scribus-1.4.2-windows.exe/download' 'http://sourceforge.net/projects/scribus/files/scribus/1.4.2/scribus-1.4.2-windows-x64.exe/download'
