@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'winff' 'exe' '/verysilent' 'http://winff.googlecode.com/files/WinFF-1.5.0-setup.exe' 'http://winff.googlecode.com/files/WinFF-1.5.0-win64-setup.exe'
