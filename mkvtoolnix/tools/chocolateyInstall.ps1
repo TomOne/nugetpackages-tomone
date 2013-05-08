@@ -1,1 +1,1 @@
-Install-ChocolateyPackage 'mkvtoolnix' 'exe' '/S' 'http://dl.cdn.chip.de/downloads/8210051/mkvtoolnix-unicode-6.2.0-setup.exe?1367254941-1367262441-6fcd0f-B-f9e0a23292a011f1a53386f93bb0e026.exe'
+Install-ChocolateyPackage 'mkvtoolnix' 'exe' '/S' 'https://www.bunkus.org/videotools/mkvtoolnix/win32/?path=&download=mkvtoolnix-unicode-6.2.0-setup.exe'
