@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>assaultcube</id>
-        <version>1.1.0.4</version>
+        <version>1.1.0.420130508</version>
         <title>AssaultCube</title>
         <authors>authors</authors>
         <owners>purity</owners>
@@ -32,7 +32,9 @@ Supports recording of your game by the "demo" system.
 Contains 12 multiplayer game modes, including: Deathmatch, Survivor, Capture the Flag, Hunt the Flag, Keep the Flag, Pistol Frenzy, Last Swiss Standing &amp; One-Shot One-Kill (plus team versions of these modes).
 Comes pre-packaged with 26 different maps!</description>
         <summary>AssaultCube is an Open Source, multiplayer, first-person shooter game, based on the CUBE engine.</summary>
-        <releaseNotes>http://assault.cubers.net/docs/history.html</releaseNotes>
+        <releaseNotes>2013-05-08: fixed broken settings location
+
+http://assault.cubers.net/docs/history.html</releaseNotes>
         <copyright />
         <tags>first-person shooter game</tags>
     </metadata>
