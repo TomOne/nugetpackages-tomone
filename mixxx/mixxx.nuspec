@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>mixxx</id>
-        <version>1.10.1</version>
+        <version>1.11.0</version>
         <title>Mixxx</title>
         <authors>Mixxx Development Team</authors>
         <owners>purity</owners>
@@ -12,7 +12,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Mixxx is open source DJ software that gives you everything you need to perform live DJ mixes.</description>
         <summary>Open Source DJ software</summary>
-        <releaseNotes>http://mixxxblog.blogspot.it/2012/06/mixxx-1101-released.html</releaseNotes>
+        <releaseNotes>http://mixxxblog.blogspot.it/</releaseNotes>
         <copyright />
         <tags>DJ audio mixing party</tags>
     </metadata>
