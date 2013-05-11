@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage 'gimp' 'EXE' 'SP- /SILENT /NORESTART' 'http://sourceforge.net/projects/gimp-win/files/GIMP%20%2B%20GTK%2B%20%28stable%20release%29/GIMP%202.8.4/gimp-2.8.4-setup.exe/download' -validExitCodes @(0)
