@@ -1,7 +1,7 @@
 $packageName = "tor-browser"
 $version = "2.3.25-6"
 
-#$langcode = (Get-Culture).Name -replace '-[a-z]{2}', '' # get language code
+$langcode = (Get-Culture).Name -replace '-[a-z]{2}', '' # get language code
 
 # add country code to language code when required
 if ($langcode -eq "en") {$langcode = "en-US"}
@@ -38,7 +38,7 @@ if (Test-Path "$env:HOMEDRIVE\Tor Browser") {
     Remove-Item "$env:HOMEDRIVE\Tor Browser" -recurse
 }
 
-7za x -o"$env:HOMEDRIVE" -y "$fileFullPath"
+`7za x -o"$env:HOMEDRIVE" -y "$fileFullPath"
 Remove-Item "$fileFullPath"
 
 $desktop = "$([Environment]::GetFolderPath("Desktop"))"
