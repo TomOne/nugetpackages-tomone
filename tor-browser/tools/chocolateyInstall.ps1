@@ -31,12 +31,7 @@ if ($statusCode -eq "NotFound") {
     $fileFullPath = Join-Path "$env:TEMP" "$downloadFile"
 }
 
-
 Get-ChocolateyWebFile $packageName "$fileFullPath" $url
-
-if (Test-Path "$env:HOMEDRIVE\Tor Browser") {
-    Remove-Item "$env:HOMEDRIVE\Tor Browser" -recurse
-}
 
 `7za x -o"$env:HOMEDRIVE" -y "$fileFullPath"
 Remove-Item "$fileFullPath"
