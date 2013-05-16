@@ -1,5 +1,5 @@
 $packageName = "tor-browser"
-$version = "2.3.25-6"
+$version = "2.3.25-8"
 
 $langcode = (Get-Culture).Name -replace '-[a-z]{2}', '' # get language code
 
@@ -33,12 +33,23 @@ if ($statusCode -eq "NotFound") {
 
 Get-ChocolateyWebFile $packageName "$fileFullPath" $url
 
-`7za x -o"$env:HOMEDRIVE" -y "$fileFullPath"
+$binRoot = "$env:systemdrive\tools"
+# Check create tools folder ($binRoot) if not already exists
+if (-not (Test-Path "$binRoot")) {md -Path "$binRoot"}
+
+# Move Tor Browser files from old to new directory
+if (Test-Path "$env:systemdrive\Tor Browser") {
+    Move-Item -Path "$env:systemdrive\Tor Browser" -Destination $binRoot
+}
+
+`7za x -o"$binRoot" -y "$fileFullPath"
 Remove-Item "$fileFullPath"
 
 $desktop = "$([Environment]::GetFolderPath("Desktop"))"
 $startMenu = "$([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::StartMenu))\Programs"
 
-Install-ChocolateyDesktopLink "$env:HOMEDRIVE\Tor Browser\Start Tor Browser.exe"
+Install-ChocolateyDesktopLink "$binRoot\Tor Browser\Start Tor Browser.exe"
+
+if (Test-Path "$desktop\Tor Browser.lnk") {Remove-Item "$desktop\Tor Browser.lnk"}
 Rename-Item -Path "$desktop\Start Tor Browser.exe.lnk" -NewName "Tor Browser.lnk"
 Copy-Item "$desktop\Tor Browser.lnk" -Destination "$startMenu"
