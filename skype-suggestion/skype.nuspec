@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>skype</id>
+        <version>6.3.0.107</version>
+        <title>Skype</title>
+        <authors>Skype</authors>
+        <owners>Rob Reynolds</owners>
+        <licenseUrl>http://www.skype.com/intl/en-us/legal/eula/</licenseUrl>
+        <projectUrl>http://www.skype.com</projectUrl>
+        <iconUrl>https://github.com/ferventcoder/chocolateyautomaticpackages/raw/master/skype/skype.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Skype – Install Skype, add your friends as contacts, then call, video call and instant message with them for free. Call people who aren't on Skype too, at really low rates.</description>
+        <summary>Skype – VOIP</summary>
+        <tags>Skype VOIP voice over ip video conferencing admin</tags>
+    </metadata>
+</package>
