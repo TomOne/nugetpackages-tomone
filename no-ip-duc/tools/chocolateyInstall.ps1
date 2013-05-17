@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'no-ip-duc' 'exe' '/S' 'http://www.noip.com/client/DUCSetup_v4_0_1.exe'
