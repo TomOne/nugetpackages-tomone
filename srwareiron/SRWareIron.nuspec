@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>SRWareIron</id>
+        <version>26.0.1450.0</version>
+        <title>SRWare Iron</title>
+        <authors>SRWare</authors>
+        <owners>gbiamby</owners>
+        <licenseUrl>http://www.srware.net/en/software_srware_iron.php</licenseUrl>
+        <projectUrl>http://www.srware.net/en/software_srware_iron.php</projectUrl>
+        <iconUrl>http://www.zockis.de/iron1.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>SRWare Iron: The browser of the future - based on the free Sourcecode "Chromium" – without any problems at privacy and security.
+Google's Web browser Chrome thrilled with an extremely fast site rendering, a sleek design and innovative features.  But it also gets critic from data protection specialists , for reasons such as creating a unique user ID or the submission of entries to Google to generate suggestions. SRWare Iron is a real alternative. The browser is based on the Chromium-source and offers the same features as Chrome - but without the critical points that the privacy concern.</description>
+        <summary>Web browser, based on Chromium</summary>
+        <releaseNotes />
+        <copyright />
+        <tags>SRWareIron browser privacy</tags>
+    </metadata>
+</package>
