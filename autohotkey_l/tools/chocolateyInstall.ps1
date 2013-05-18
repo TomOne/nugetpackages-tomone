@@ -1,5 +1,5 @@
 ﻿$name   = 'autohotkey_l'
-$url    = 'http://l.autohotkey.net/v/AutoHotkey111000_Install.exe'
+$url    = 'http://l.autohotkey.net/v/AutoHotkey111001_Install.exe'
 $silent = '/S'
 
 $is64bit = (Get-WmiObject Win32_Processor).AddressWidth -eq 64  
