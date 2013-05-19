@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>ext2fsd</id>
-        <version>0.51.20130516</version>
+        <version>0.51.20130519</version>
         <title>Ext2Fsd</title>
         <authors>Matt</authors>
         <owners>purity</owners>
@@ -10,12 +10,15 @@
         <projectUrl>http://www.ext2fsd.com/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Open source ext3/4 file system driver for Windows
-Note: To work with Windows 8, Ext2Fsd must be installed with Windows 7 compatibility settings.
-The uninstaller doesn’t work silently.</description>
+Note: The uninstaller doesn’t work silently.</description>
         <summary>Open source ext3/4 file system driver for Windows</summary>
-        <releaseNotes />
+        <releaseNotes>2013-05-19: Now installable also in Windows 8 and higher.</releaseNotes>
         <copyright />
         <language>en-US</language>
         <tags>ext3 ext4 file system driver</tags>
     </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+        <file src="tools\chocolateyUninstall.ps1" target="tools\chocolateyUninstall.ps1" />
+    </files>
 </package>
