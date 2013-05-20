@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>ontopreplica</id>
-        <version>3.4</version>
+        <version>3.4.0.20130520</version>
         <title>OnTopReplica</title>
         <authors>Lck</authors>
         <owners>purity</owners>
@@ -24,7 +24,8 @@ Adjustable opacity,
 "Group switch" mode automatically switches through a group of windows while you use them,
 Non invasive installation doesn't require administrator elevation.</description>
         <summary>A real-time, always on top, "replica" of a window of your choice</summary>
-        <releaseNotes>https://ontopreplica.codeplex.com/releases/view/63807</releaseNotes>
+        <releaseNotes>2013-05-20: download link now works
+https://ontopreplica.codeplex.com/releases/view/63807</releaseNotes>
         <copyright />
         <tags>ontopreplica replica window on-top</tags>
     </metadata>

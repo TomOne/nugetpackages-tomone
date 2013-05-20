@@ -1,2 +1,6 @@
-$path = "$env:LOCALAPPDATA\OnTopReplica\OnTopReplica-Uninstall.exe"
-Uninstall-ChocolateyPackage 'ontopreplica' 'exe' '/S' "$unpath"
+$packageName = "ontopreplica"
+$fileType = "exe"
+$silentArgs = "/S"
+$file = "$env:LOCALAPPDATA\OnTopReplica\OnTopReplica-Uninstall.exe"
+
+Uninstall-ChocolateyPackage $packageName $fileType $silentArgs $file
