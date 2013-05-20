@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>songbird</id>
-        <version>2.2.0.2453</version>
+        <version>2.2.0.2454</version>
         <title>Songbird</title>
         <authors>Pioneers of the Inevitable,Inc.</authors>
         <owners>purity</owners>
@@ -11,11 +11,8 @@
         <iconUrl>http://bok.me/uploads/Songbird-Android-Music-Player-Icon.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Songbird is an open-source customizable music player that's under active development.
-
 It is integrated with these Web 2.0 services: mashTape, SHOUTcast Radio, Last.fm Scrobbling, and Songkick concert tickets. You can enhance Songbird with community-contributed plugins like Media Flow.
-
 Features include:
-
 GStreamer
 Smart Playlists
 Built-In Web Browser
