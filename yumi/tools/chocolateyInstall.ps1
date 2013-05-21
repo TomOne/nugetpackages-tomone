@@ -1,6 +1,6 @@
-$url = "http://www.pendrivelinux.com/downloads/YUMI/YUMI-0.0.9.5.exe"
 $scriptPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$exeFile = "YUMI-0.0.9.5.exe"
+$exeFile = "YUMI-0.0.9.6.exe"
+$url = "http://www.pendrivelinux.com/downloads/YUMI/$exeFile"
 $exeFileLink = "YUMI.lnk"
 $exePath = Join-Path "$scriptPath" "$exeFile"
 if (Test-Path "$exePath") {Remove-Item "$exePath"}

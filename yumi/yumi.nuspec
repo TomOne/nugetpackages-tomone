@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>yumi</id>
-        <version>0.0.9.5</version>
+        <version>0.0.9.6</version>
         <title>YUMI</title>
         <authors>Pendrivelinux</authors>
         <owners>purity</owners>
@@ -13,12 +13,11 @@
 
 Aside from a few distributions, all files are stored within the Multiboot folder, making for a nicely organized Multiboot Drive that can still be used for other storage purposes.</description>
         <summary>YUMI – Multiboot USB Creator for Windows</summary>
-        <releaseNotes>YUMI-0.0.9.5.exe – April 29, 2013 – Changelog
-
+        <releaseNotes>YUMI-0.0.9.6.exe – May 20, 2013 – Changelog
+Updated to support Ubuntu 13.10, Ubuntu Gnome 13.04, Debain Live 7, and Linux Mint 15. Fix TAILS time zone, and G4L config.
+YUMI-0.0.9.5.exe – April 29, 2013 – Changelog
 Updated to support final release of Ubuntu, Edubuntu, Lubuntu, Kubuntu, Xubuntu 13.04. Add LMDE 201303.
-
 YUMI-0.0.9.4.exe – April 15, 2013 – Changelog
-
 Updated to support REMnux. Added Clonezilla and DRBL amd64 support. Correct a few broken links.</releaseNotes>
         <copyright>2011–2012 Lance www.pendrivelinux.com</copyright>
         <tags>usb flash drive multiboot linux iso</tags>
