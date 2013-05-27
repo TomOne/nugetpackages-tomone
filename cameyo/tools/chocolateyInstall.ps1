@@ -1,4 +1,4 @@
-$url = "http://online.cameyo.com/packager.aspx?op=Retrieve&pkgId=1"
+﻿$url = "http://online.cameyo.com/packager.aspx?op=Retrieve&pkgId=1"
 $scriptPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $exePath = Join-Path "$scriptPath" "Cameyo.exe"
 if (Test-Path "$exePath") {Remove-Item "$exePath"}
