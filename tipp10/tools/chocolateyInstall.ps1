@@ -1,4 +1,4 @@
-$name = 'tipp10'
+﻿$name = 'tipp10'
 $pwd = "$(split-path -parent $MyInvocation.MyCommand.Definition)"
 
 

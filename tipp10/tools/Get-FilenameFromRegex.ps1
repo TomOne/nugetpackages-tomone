@@ -1,4 +1,4 @@
-# Redsandro - I will just include the required module in the package as long as it is not merged with Chocolatey
+﻿# Redsandro - I will just include the required module in the package as long as it is not merged with Chocolatey
 
 # Some files have a changing element/hash in the download path, making an automated download harder.
 # This file gets the correct download url from a download page with a regular expression.
@@ -24,7 +24,7 @@ function Get-FilenameFromRegex {
 		## Example # $replace = 'http://www.joejoesoft.com/sim/$1/userupload/8/files/rmv303.zip'		
 
 		# Download and open download page
-		$tempfile = "chocolatey_temp_download.html"
+		$tempfile = "$env:TEMP\chocolatey_temp_download.html"
 		$wc = new-object system.net.webclient
 		$wc.UseDefaultCredentials = $true
 		$wc.downloadfile($source_url, $tempfile)
@@ -36,7 +36,8 @@ function Get-FilenameFromRegex {
 		# This one is not working :(
 		# I have a temporary fix that only allows ONE match. However, in most cases we only need one match.
 		$download_url = $replace -creplace "\$`(\d+)",$matches[1]
-
+        
+        Remove-Item $tempfile
 		return $download_url
 		
 	} catch {
