@@ -1,4 +1,4 @@
-$exeFileLink = "YUMI.lnk"
+﻿$exeFileLink = "YUMI.lnk"
 $desktop = [Environment]::GetFolderPath("Desktop")
 if (Test-Path "$desktop\$exeFileLink") {Remove-Item "$desktop\$exeFileLink"}
 
