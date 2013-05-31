@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>XnView</id>
+        <version>2.03</version>
+        <title>XnView</title>
+        <authors>Gougelet Pierre</authors>
+        <owners>Geert Serneels</owners>
+        <projectUrl>http://www.xnview.com</projectUrl>
+        <iconUrl>http://www.xnview.com/assets/img/app-xnview-512.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Come to discover XnView, a software to view and convert graphic files, really simple to use! Support of more than 400 graphics formats! It's free, so do not hesitate!
+Note: This package installs the full version with all available languages and plug-ins.</description>
+        <summary>XnView, a software to view and convert graphic files, really simple to use !</summary>
+        <tags>XnView image picture graphics convert viewer</tags>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+        <file src="tools\chocolateyUninstall.ps1" target="tools\chocolateyUninstall.ps1" />
+    </files>
+</package>
