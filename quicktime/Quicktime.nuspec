@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Quicktime</id>
+        <version>7.7.4</version>
+        <title>Quicktime</title>
+        <authors>Apple</authors>
+        <owners>Elliando Dias,purity</owners>
+        <licenseUrl>http://www.apple.com/legal/terms/site.html</licenseUrl>
+        <projectUrl>http://support.apple.com/kb/DL837</projectUrl>
+        <iconUrl>http://icons.iconseeker.com/png/fullsize/quicktime-feat-pink-sparkles/quicktime-24.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Quicktime</description>
+        <summary>Quicktime</summary>
+        <copyright>Copyright © 2012 Apple Inc. All rights reserved</copyright>
+        <tags>Quicktime chocolatey admin</tags>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    </files>
+</package>

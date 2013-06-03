@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage 'Quicktime' 'exe' '/quiet' 'http://appldnld.apple.com/QuickTime/041-9648.20130522.Rftg5/QuickTimeInstaller.exe'
