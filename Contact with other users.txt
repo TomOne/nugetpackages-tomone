@@ -1,4 +1,0 @@
-﻿Package			Date of e-mail		Date of pull request	Reason
-gpg4win			2013-06-05									outdated
-blender								2013-06-07				outdated
-pyhoca-gui							2013-06-07				add icon
