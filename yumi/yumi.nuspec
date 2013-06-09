@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>yumi</id>
-        <version>0.0.9.7</version>
+        <version>0.0.9.8</version>
         <title>YUMI</title>
         <authors>Pendrivelinux</authors>
         <owners>purity</owners>
@@ -14,7 +14,9 @@
 
 Aside from a few distributions, all files are stored within the Multiboot folder, making for a nicely organized Multiboot Drive that can still be used for other storage purposes.</description>
         <summary>YUMI – Multiboot USB Creator for Windows</summary>
-        <releaseNotes>YUMI-0.0.9.7.exe – May 29, 2013 – Changelog
+        <releaseNotes>YUMI-0.0.9.8.exe – June 7, 2013 – Changelog
+Updated to support LMDE 2013 MATE 32/64bit. Correct Debian 7 LXDE 64bit entry.
+YUMI-0.0.9.7.exe – May 29, 2013 – Changelog
 Updated to support Ubuntu Server 13.04, Ubuntu Server 13.10, and Clonezilla raring alternative distributions. Fix problems adding Debian 7 i386.
 YUMI-0.0.9.6.exe – May 20, 2013 – Changelog
 Updated to support Ubuntu 13.10, Ubuntu Gnome 13.04, Debain Live 7, and Linux Mint 15. Fix TAILS time zone, and G4L config.

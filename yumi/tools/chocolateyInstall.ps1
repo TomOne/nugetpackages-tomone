@@ -1,5 +1,5 @@
 ﻿$scriptPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$exeFile = "YUMI-0.0.9.7.exe"
+$exeFile = "YUMI-0.0.9.8.exe"
 $url = "http://www.pendrivelinux.com/downloads/YUMI/$exeFile"
 $exeFileLink = "YUMI.lnk"
 $exePath = Join-Path "$scriptPath" "$exeFile"
