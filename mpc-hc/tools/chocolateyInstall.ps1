@@ -1,1 +1,7 @@
-Install-ChocolateyPackage 'mpc-hc' 'exe' '/verysilent' 'http://netcologne.dl.sourceforge.net/project/mpc-hc/MPC%20HomeCinema%20-%20Win32/MPC-HC_v1.6.7.7114_x86/MPC-HC.1.6.7.7114.x86.exe' 'http://surfnet.dl.sourceforge.net/project/mpc-hc/MPC%20HomeCinema%20-%20x64/MPC-HC_v1.6.7.7114_x64/MPC-HC.1.6.7.7114.x64.exe'
+﻿$packageName = 'mpc-hc'
+$fileType = 'exe'
+$silentArgs = '/VERYSILENT'
+$url = 'http://sourceforge.net/projects/mpc-hc/files/MPC%20HomeCinema%20-%20Win32/MPC-HC_v1.6.8_x86/MPC-HC.1.6.8.x86.exe/download'
+$url64bit = 'http://sourceforge.net/projects/mpc-hc/files/MPC%20HomeCinema%20-%20x64/MPC-HC_v1.6.8_x64/MPC-HC.1.6.8.x64.exe/download'
+
+Install-ChocolateyPackage $packageName $fileType $silentArgs $url $url64bit

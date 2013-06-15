@@ -1,1 +1,1 @@
-Install-ChocolateyPackage 'alldup' 'exe' '/verysilent' 'http://www.allsync.de/download/alldup.exe'
+﻿Install-ChocolateyPackage 'alldup' 'exe' '/verysilent' 'http://www.allsync.de/download/alldup.exe'
