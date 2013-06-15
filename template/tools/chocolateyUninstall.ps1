@@ -1,8 +1,8 @@
 ﻿try {
 
-    $packageName = ""
-    $fileType = "exe"
-    $silentArgs = "/S"
+    $packageName = ''
+    $fileType = 'exe'
+    $silentArgs = '/S'
     $validExitCodes = @(0)
     
     $unfile = "${Env:ProgramFiles}\Programpath\uninstall.exe"
