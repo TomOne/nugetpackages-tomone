@@ -1,2 +1,2 @@
-$validExitCodes = @(1223)
+﻿$validExitCodes = @(0,1223)
 Install-ChocolateyPackage 'avidemux' 'exe' '/S' 'http://sourceforge.net/projects/avidemux/files/avidemux/2.6.4/avidemux_2.6.4_win32.exe/download' -validExitCodes $validExitCodes

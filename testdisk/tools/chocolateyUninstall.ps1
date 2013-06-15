@@ -1,4 +1,4 @@
-$desktop = [Environment]::GetFolderPath("Desktop")
+﻿$desktop = [Environment]::GetFolderPath("Desktop")
 if (Test-Path "$desktop\TestDisk.lnk") {Remove-Item "$desktop\TestDisk.lnk"}
 
 $startMenu = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::StartMenu))

@@ -1,4 +1,4 @@
-$packageName = "skype"
+﻿$packageName = "skype"
 $fileType = "msi"
 $silentArgs = "/qn /norestart"
 $url = "http://download.skype.com/msi/SkypeSetup_6.3.0.107.msi"

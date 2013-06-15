@@ -1,4 +1,4 @@
-$unfile = "Mozilla Thunderbird\uninstall\helper.exe"
+﻿$unfile = "Mozilla Thunderbird\uninstall\helper.exe"
 
 if (Test-Path "${Env:ProgramFiles(x86)}\$unfile") {
     $unpath = "${Env:ProgramFiles(x86)}\$unfile"

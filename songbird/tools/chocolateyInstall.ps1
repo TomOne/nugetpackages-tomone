@@ -1,4 +1,4 @@
-$packageName = "songbird"
+﻿$packageName = "songbird"
 $fileType = "exe"
 $url = "http://www.getsongbird.com/desktop/index.php?download=GSB_windows"
 $unzipLocation = "$env:TEMP"
@@ -17,7 +17,7 @@ if ($WindowsVersion -ge "6.2.9200") {
     }
     New-ItemProperty -path "HKCU:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" -propertyType String -Name "$file" -value "~ WIN7RTM"
     Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $file
-    # Delete compatibility mode for installer, because it�s not needed anymore
+    # Delete compatibility mode for installer, because it’s not needed anymore
     Remove-ItemProperty -path "HKCU:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" -Name "$file"
 } else {
     Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $file

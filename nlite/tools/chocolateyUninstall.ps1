@@ -1,4 +1,4 @@
-try {
+﻿try {
 
     $packageName = "nlite"
     $fileType = "exe"

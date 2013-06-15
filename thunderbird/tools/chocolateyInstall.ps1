@@ -1,4 +1,4 @@
-$packageName = 'thunderbird'
+﻿$packageName = 'thunderbird'
 $fileType = 'exe'
 $version = '17.0.6'
 $silentArgs = '-ms'

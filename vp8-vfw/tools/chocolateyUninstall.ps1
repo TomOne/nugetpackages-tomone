@@ -1,4 +1,4 @@
-try {
+﻿try {
 
     $packageName = "vp8-vfw"
     $fileType = "exe"

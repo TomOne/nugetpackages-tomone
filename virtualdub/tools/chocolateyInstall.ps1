@@ -1,4 +1,4 @@
-$packageName = "virtualdub"
+﻿$packageName = "virtualdub"
 $url = "http://sourceforge.net/projects/virtualdub/files/virtualdub-experimental/1.10.3.35390/VirtualDub-1.10.3.zip"
 $url64 = "http://sourceforge.net/projects/virtualdub/files/virtualdub-experimental/1.10.3.35390/VirtualDub-1.10.3-AMD64.zip/download"
 $binRoot = "$env:systemdrive\tools"

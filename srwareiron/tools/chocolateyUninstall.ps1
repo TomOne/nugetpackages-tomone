@@ -1,4 +1,4 @@
-$unfile = "SRWare Iron\unins000.exe"
+﻿$unfile = "SRWare Iron\unins000.exe"
 
 if (Test-Path "${Env:ProgramFiles(x86)}\$unfile") {
     $unpath = "${Env:ProgramFiles(x86)}\$unfile"

@@ -1,4 +1,4 @@
-$url = "http://www.magicaljellybean.com/downloads/keyfinder.zip"
+﻿$url = "http://www.magicaljellybean.com/downloads/keyfinder.zip"
 $scriptPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $exeFile = "keyfinder.exe"
 $exeFileLink = "Keyfinder.lnk"

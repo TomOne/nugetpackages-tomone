@@ -1,4 +1,4 @@
-try {
+﻿try {
     $packageName = "haali-media-splitter"
     $fileType = "exe"
     $silentArgs = "/S"

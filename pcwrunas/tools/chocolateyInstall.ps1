@@ -1,1 +1,1 @@
-Install-ChocolateyPackage 'pcwrunas' 'exe' '/verysilent' 'http://download.pcwelt.de/area_release/files/A1/59/A159789BD5C889445B1D33BBF89685BC/pcwRunAs4.exe'
+﻿Install-ChocolateyPackage 'pcwrunas' 'exe' '/verysilent' 'http://download.pcwelt.de/area_release/files/A1/59/A159789BD5C889445B1D33BBF89685BC/pcwRunAs4.exe'

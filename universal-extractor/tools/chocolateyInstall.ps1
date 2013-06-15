@@ -1,1 +1,1 @@
-Install-ChocolateyPackage 'universal-extractor' 'exe' '/verysilent' 'http://www.legroom.net/files/software/uniextract161.exe'
+﻿Install-ChocolateyPackage 'universal-extractor' 'exe' '/verysilent' 'http://www.legroom.net/files/software/uniextract161.exe'

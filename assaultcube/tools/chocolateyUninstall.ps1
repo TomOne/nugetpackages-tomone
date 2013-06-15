@@ -1,4 +1,4 @@
-if (Test-Path "${Env:ProgramFiles(x86)}\AssaultCube_v1.1.0.4\Uninstall.exe") {
+﻿if (Test-Path "${Env:ProgramFiles(x86)}\AssaultCube_v1.1.0.4\Uninstall.exe") {
     $unpath = "${Env:ProgramFiles(x86)}\AssaultCube_v1.1.0.4\Uninstall.exe"
 }
 else {

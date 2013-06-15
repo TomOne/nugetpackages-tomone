@@ -1,4 +1,4 @@
-$packageName = "dokan-library"
+ï»¿$packageName = "dokan-library"
 $fileType = "exe"
 $silentArgs = "/S"
 $url = "http://dokan-dev.net/wp-content/uploads/DokanInstall_0.6.0.exe"
@@ -15,7 +15,7 @@ if (Test-Path $unpathx86) {
     $installed = "True"
 }
 
-# Uninstalling previous Dokan Library first, otherwise the installer won’t work.
+# Uninstalling previous Dokan Library first, otherwise the installer wonâ€™t work.
 if ($installed) {
     Uninstall-ChocolateyPackage $packageName $fileType $silentArgs $file  -validExitCodes $validExitCodes
     Write-Host The system must be rebooted for the changes to be completed.
@@ -29,7 +29,7 @@ if ($WindowsVersion -ge "6.2.9200") {
     }
     New-ItemProperty -path "HKCU:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" -propertyType String -Name "$env:temp\chocolatey\$packageName\$packageName`Install.$fileType" -value "~ WIN7RTM"
     Install-ChocolateyPackage $packageName $fileType $silentArgs $url
-    # Delete compatibility mode for ext2fsd installer, because it’s not needed anymore
+    # Delete compatibility mode for ext2fsd installer, because itâ€™s not needed anymore
     Remove-ItemProperty -path "HKCU:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" -Name "$env:temp\chocolatey\$packageName\$packageName`Install.$fileType"
 } else {
     Install-ChocolateyPackage $packageName $fileType $silentArgs $url

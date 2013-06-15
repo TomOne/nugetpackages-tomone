@@ -1,4 +1,4 @@
-$exeFileLink = "Keyfinder.lnk"
+﻿$exeFileLink = "Keyfinder.lnk"
 $desktop = [Environment]::GetFolderPath("Desktop")
 if (Test-Path "$desktop\$exeFileLink") {Remove-Item "$desktop\$exeFileLink"}
 

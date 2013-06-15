@@ -1,4 +1,4 @@
-$packageName = "tor-browser"
+﻿$packageName = "tor-browser"
 $version = "2.3.25-8"
 
 $langcode = (Get-Culture).Name -replace '-[a-z]{2}', '' # get language code

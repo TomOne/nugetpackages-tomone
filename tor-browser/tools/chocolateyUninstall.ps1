@@ -1,4 +1,4 @@
-$exeFileLink = "Tor Browser.lnk"
+﻿$exeFileLink = "Tor Browser.lnk"
 $desktop = [Environment]::GetFolderPath("Desktop")
 if (Test-Path "$desktop\$exeFileLink") {Remove-Item "$desktop\$exeFileLink"}
 

@@ -1,4 +1,4 @@
-$packageName = "compact-timer"
+﻿$packageName = "compact-timer"
 $url = "http://www.compacttimerpro.com/compacttimer.zip"
 $binRoot = "$env:systemdrive\tools"
 $unzipLocation = "$binRoot\Compact Timer"

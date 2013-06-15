@@ -1,4 +1,4 @@
-$packageName = "assaultcube"
+﻿$packageName = "assaultcube"
 $url = "http://sourceforge.net/projects/actiongame/files/AssaultCube%20Version%201.1.0.4/AssaultCube_v1.1.0.4.exe/download"
 $zipPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\assaultcube.zip"
 $assaultcubePath = 

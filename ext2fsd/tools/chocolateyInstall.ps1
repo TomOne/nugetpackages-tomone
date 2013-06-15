@@ -1,4 +1,4 @@
-$packageName = "ext2fsd"
+﻿$packageName = "ext2fsd"
 $fileType = "exe"
 $silentArgs = "/VERYSILENT"
 $url = "http://sourceforge.net/projects/ext2fsd/files/Ext2fsd/0.51/Ext2Fsd-0.51.exe"
@@ -11,7 +11,7 @@ if ($WindowsVersion -ge "6.2.9200") {
     }
     New-ItemProperty -path "HKCU:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" -propertyType String -Name "$env:temp\chocolatey\$packageName\$packageName`Install.$fileType" -value "~ WIN7RTM"
     Install-ChocolateyPackage $packageName $fileType $silentArgs $url
-    # Delete compatibility mode for ext2fsd installer, because it�s not needed anymore
+    # Delete compatibility mode for ext2fsd installer, because it’s not needed anymore
     Remove-ItemProperty -path "HKCU:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" -Name "$env:temp\chocolatey\$packageName\$packageName`Install.$fileType"
 } else {
     Install-ChocolateyPackage $packageName $fileType $silentArgs $url

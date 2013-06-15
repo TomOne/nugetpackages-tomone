@@ -1,4 +1,4 @@
-if (Test-Path "$env:HOMEDRIVE\ruKernelTool") {
+﻿if (Test-Path "$env:HOMEDRIVE\ruKernelTool") {
     Remove-Item "$env:HOMEDRIVE\ruKernelTool" -Recurse -Force
 }
 

@@ -1,4 +1,4 @@
-try {
+﻿try {
 
     $packageName = "h264tscutter"
     $url = "http://www.videohelp.com/download/h264ts_cutter_v111.zip"

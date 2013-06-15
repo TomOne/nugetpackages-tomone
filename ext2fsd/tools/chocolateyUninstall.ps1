@@ -1,4 +1,4 @@
-$packageName = "ext2fsd"
+﻿$packageName = "ext2fsd"
 $fileType = "exe"
 $silentArgs = "/VERYSILENT /NORESTART"
 $unpath = "${Env:ProgramFiles}\Ext2Fsd\unins000.exe"

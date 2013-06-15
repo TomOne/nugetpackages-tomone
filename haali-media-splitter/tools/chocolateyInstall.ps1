@@ -1,4 +1,4 @@
-$packageName = "haali-media-splitter"
+﻿$packageName = "haali-media-splitter"
 $fileType = "exe"
 $silentArgs = "/S"
 $url = "http://haali.su/mkv/MatroskaSplitter.exe"

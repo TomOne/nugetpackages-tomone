@@ -1,4 +1,4 @@
-$packageName = "rukerneltool"
+﻿$packageName = "rukerneltool"
 $downloadFile = "ruKernelTool.zip"
 $url = "http://rukerneltool.rainerullrich.de/download2/$downloadFile"
 

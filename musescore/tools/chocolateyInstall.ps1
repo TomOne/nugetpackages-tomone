@@ -1,1 +1,1 @@
-Install-ChocolateyPackage 'musescore' 'exe' '/S' 'http://netcologne.dl.sourceforge.net/project/mscore/mscore/MuseScore-1.3/MuseScore-1.3.exe'
+﻿Install-ChocolateyPackage 'musescore' 'exe' '/S' 'http://netcologne.dl.sourceforge.net/project/mscore/mscore/MuseScore-1.3/MuseScore-1.3.exe'

@@ -1,4 +1,4 @@
-$packageName = "free-virtual-keyboard"
+﻿$packageName = "free-virtual-keyboard"
 $url = "http://www.freevirtualkeyboard.com/FreeVK.exe"
 $binRoot = "$env:systemdrive\tools"
 md -Path "$binRoot\Free Virtual Keyboard"

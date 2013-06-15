@@ -1,4 +1,4 @@
-$packageName = "dokan-library"
+﻿$packageName = "dokan-library"
 $fileType = "exe"
 $silentArgs = "/S"
 $unpath = "${Env:ProgramFiles}\Dokan\DokanLibrary\DokanUninstall.exe"
