@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>clipgrab</id>
-        <version>3.2.0.1103</version>
+        <version>3.2.0.1300</version>
         <title>Clipgrab</title>
         <authors>Philipp Schmieder Medien</authors>
         <owners>purity</owners>
@@ -15,9 +15,7 @@ ClipGrab can download from the following sites: YouTube, Clipfish, Collegehumor,
 Downloaded videos can be converted to the following file formats: WMV, MPEG4, OGG Theora, MP3 (audio only), OGG Vorbis (audio only).
 Note: While ClipGrab itself is free software, its artwork and name are not.</description>
         <summary>Download and convert online videos</summary>
-        <releaseNotes>2013-05-28, 3.2.0.1103: removed autohotkey script and use silent install parameter, because the installer no longer installs an advertising toolbar
-2013-04-28, 3.2.0.1102: prevent installer from getting a batch redirect
-2013-04-27, 3.2.0.1101: fixed AutoHotkey-installer-script only working on 64-bit-systems</releaseNotes>
+        <releaseNotes />
         <copyright />
         <tags>youtube vimeo video convert music</tags>
     </metadata>
