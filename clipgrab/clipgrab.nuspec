@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>clipgrab</id>
-        <version>3.2.0.1300</version>
+        <version>3.2.1.0</version>
         <title>Clipgrab</title>
         <authors>Philipp Schmieder Medien</authors>
         <owners>purity</owners>
