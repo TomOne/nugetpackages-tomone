@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>songbird</id>
-        <version>2.2.0.2454</version>
+        <version>2.2.0.2455</version>
         <title>Songbird</title>
         <authors>Pioneers of the Inevitable,Inc.</authors>
         <owners>purity</owners>
         <licenseUrl>http://www.getsongbird.com/about/eula.php</licenseUrl>
         <projectUrl>http://www.getsongbird.com/</projectUrl>
-        <iconUrl>http://bok.me/uploads/Songbird-Android-Music-Player-Icon.png</iconUrl>
+        <iconUrl>https://raw.github.com/TomOne/nugetpackages/master/songbird/songbird.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Songbird is an open-source customizable music player that's under active development.
 It is integrated with these Web 2.0 services: mashTape, SHOUTcast Radio, Last.fm Scrobbling, and Songkick concert tickets. You can enhance Songbird with community-contributed plugins like Media Flow.
@@ -24,9 +24,13 @@ Library Management
 Developer Support
 Note: The installer doesn’t work silently.</description>
         <summary>Songbird is an open-source customizable music player that's under active development.</summary>
-        <releaseNotes>http://www.softpedia.com/progChangelog/Songbird-Changelog-33307.html</releaseNotes>
+        <releaseNotes>The real Songbird version is 2.2.0-2453.</releaseNotes>
         <copyright />
         <tags>media player music songbird</tags>
-        <dependencies />
     </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+        <file src="tools\chocolateyUninstall.ps1" target="tools\chocolateyUninstall.ps1" />
+        <file src="songbird.png" target="songbird.png" />
+    </files>
 </package>
