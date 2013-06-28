@@ -4,6 +4,15 @@ $silentArgs = '/SILENT /SP-'
 $validExitCodes = @(0)
 
 try {
+    
+    # Uninstall older version of imagemagick, otherwise the installation won’t be silent.
+    $regPath = 'HKLM:\SOFTWARE\ImageMagick\Current'
+    if (Test-Path $regPath) {
+        $uninstallPath = (Get-ItemProperty -Path $regPath).BinPath
+        $uninstallFilePath = "$uninstallPath\unins000.exe"
+        Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $uninstallFilePath
+    }
+
     $tempDir = "$env:TEMP\chocolatey\$packageName"
     if (-not (Test-Path $tempDir)) {New-Item $tempDir -ItemType directory}
 
