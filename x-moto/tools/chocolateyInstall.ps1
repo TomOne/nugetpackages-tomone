@@ -1,1 +1,0 @@
-﻿Install-ChocolateyPackage 'x-moto' 'exe' '/S' 'http://download.tuxfamily.org/xmoto/xmoto/0.5.10/xmoto-0.5.10-win32-setup.exe'

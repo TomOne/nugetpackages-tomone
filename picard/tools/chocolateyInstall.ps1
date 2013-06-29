@@ -1,1 +1,0 @@
-﻿Install-ChocolateyPackage 'picard' 'exe' '/S' 'http://ftp.musicbrainz.org/pub/musicbrainz/picard/picard-setup-1.2.exe'
