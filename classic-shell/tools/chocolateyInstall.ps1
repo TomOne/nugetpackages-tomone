@@ -1,1 +1,0 @@
-﻿Install-ChocolateyPackage 'classic-shell' 'exe' '/qn' 'http://garr.dl.sourceforge.net/project/classicshell/Version%203.6.7%20general%20release/ClassicShellSetup_3_6_7.exe'

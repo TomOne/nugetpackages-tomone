@@ -1,1 +1,0 @@
-﻿Install-ChocolateyPackage 'librecad' 'exe' '/S' 'http://ignum.dl.sourceforge.net/project/librecad/Windows/1.0.2/LibreCAD-Installer_1.0.2.exe'
