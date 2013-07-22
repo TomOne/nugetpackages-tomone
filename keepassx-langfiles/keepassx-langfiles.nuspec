@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>keepassx-langfiles</id>
-        <version>1.25</version>
+        <version>1.26</version>
         <title>KeePass 1.x language files</title>
         <authors>KeePass Team</authors>
         <owners>purity</owners>
         <licenseUrl>http://keepass.info/help/v1/license.html</licenseUrl>
         <projectUrl>http://keepass.info/</projectUrl>
-        <iconUrl>https://upload.wikimedia.org/wikipedia/commons/1/19/KeePass_icon.png</iconUrl>
+        <iconUrl>https://upload.wikimedia.org/wikipedia/commons/0/04/KeePass_icon.svg</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>KeePass is a free, open source, light-weight and easy-to-use password manager. This package extracts a ZIP with all language files into the KeePass program folder. The language, however, must then be manually selected in the KeePass settings. Credits of the translation files: http://keepass.info/translations.html</description>
         <summary>Language files for KeePass 1.x.</summary>
