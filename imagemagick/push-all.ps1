@@ -1,1 +1,0 @@
-ls -Directory | %{ push-location $_; cpack; cpush *.nupkg; rm *.nupkg; pop-location; }
