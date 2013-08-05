@@ -8,7 +8,7 @@
         <owners>purity</owners>
         <licenseUrl>http://keepass.info/help/v1/license.html</licenseUrl>
         <projectUrl>http://keepass.info/</projectUrl>
-        <iconUrl>https://upload.wikimedia.org/wikipedia/commons/0/04/KeePass_icon.svg</iconUrl>
+        <iconUrl>http://tomone.github.io/icons/keepass.svg</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>KeePass is a free, open source, light-weight and easy-to-use password manager. This package extracts a ZIP with all language files into the KeePass program folder. The language, however, must then be manually selected in the KeePass settings. Credits of the translation files: http://keepass.info/translations.html</description>
         <summary>Language files for KeePass 1.x.</summary>
