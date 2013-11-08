@@ -1,1 +1,1 @@
-﻿
+Some packages for [Chocolatey](https://chocolatey.org/).
