@@ -5,7 +5,6 @@
         <version>1.26</version>
         <title>KeePass 1.x language files</title>
         <authors>KeePass Team</authors>
-        <owners>purity</owners>
         <licenseUrl>http://keepass.info/help/v1/license.html</licenseUrl>
         <projectUrl>http://keepass.info/</projectUrl>
         <iconUrl>http://tomone.github.io/icons/keepass.svg</iconUrl>

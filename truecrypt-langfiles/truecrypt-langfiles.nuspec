@@ -5,7 +5,6 @@
         <version>7.1.1</version>
         <title>TrueCrypt language files</title>
         <authors>Various (see http://www.truecrypt.org/localizations)</authors>
-        <owners>purity</owners>
         <projectUrl>http://www.truecrypt.org/localizations</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>This package contains all available language files for TrueCrypt, the free open-source disk encryption software. The language files get extracted into the TrueCrypt program folder. Then the desired language can be selected in the TrueCrypt settings.
