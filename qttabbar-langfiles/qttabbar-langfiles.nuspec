@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>qttabbar-langfiles</id>
@@ -19,21 +19,6 @@ QTTabBar is extension for Windows Explorer that brings tabbed browsing to Micros
         </dependencies>
     </metadata>
     <files>
-        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
-        <file src="tools\Lng_QTTabBar_Chinese_Simp.xml" target="tools\Lng_QTTabBar_Chinese_Simp.xml" />
-        <file src="tools\Lng_QTTabBar_Chinese_Trad.xml" target="tools\Lng_QTTabBar_Chinese_Trad.xml" />
-        <file src="tools\Lng_QTTabBar_Czech.xml" target="tools\Lng_QTTabBar_Czech.xml" />
-        <file src="tools\Lng_QTTabBar_Dutch.xml" target="tools\Lng_QTTabBar_Dutch.xml" />
-        <file src="tools\Lng_QTTabBar_English.xml" target="tools\Lng_QTTabBar_English.xml" />
-        <file src="tools\Lng_QTTabBar_French.xml" target="tools\Lng_QTTabBar_French.xml" />
-        <file src="tools\Lng_QTTabBar_German.xml" target="tools\Lng_QTTabBar_German.xml" />
-        <file src="tools\Lng_QTTabBar_Greek.xml" target="tools\Lng_QTTabBar_Greek.xml" />
-        <file src="tools\Lng_QTTabBar_Italian.xml" target="tools\Lng_QTTabBar_Italian.xml" />
-        <file src="tools\Lng_QTTabBar_Japanese.xml" target="tools\Lng_QTTabBar_Japanese.xml" />
-        <file src="tools\Lng_QTTabBar_Polish.xml" target="tools\Lng_QTTabBar_Polish.xml" />
-        <file src="tools\Lng_QTTabBar_Portuguese.xml" target="tools\Lng_QTTabBar_Portuguese.xml" />
-        <file src="tools\Lng_QTTabBar_Russian.xml" target="tools\Lng_QTTabBar_Russian.xml" />
-        <file src="tools\Lng_QTTabBar_Spanish.xml" target="tools\Lng_QTTabBar_Spanish.xml" />
-        <file src="tools\Lng_QTTabBar_Swedish.xml" target="tools\Lng_QTTabBar_Swedish.xml" />
+        <file src="tools\**" target="tools" />
     </files>
 </package>

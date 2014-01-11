@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>truecrypt-langfiles</id>
@@ -18,7 +18,6 @@ Note: The language files are public domain, so they can be distributed and modif
         </dependencies>
     </metadata>
     <files>
-        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
-        <file src="tools\truecrypt_7.1a_langfiles.zip" target="tools\truecrypt_7.1a_langfiles.zip" />
+        <file src="tools\**" target="tools" />
     </files>
 </package>
