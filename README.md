@@ -1,1 +1,1 @@
-Some packages for [Chocolatey](https://chocolatey.org/).
+This repository is deprecated. My manual packages are now hosted on https://github.com/TomOne/chocolatey-packages/tree/master/manual.
